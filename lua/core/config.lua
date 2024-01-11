@@ -1,9 +1,9 @@
+local o = vim.opt
 local g = vim.g
-local o = vim.o
 
-g.tabstop = 2
-g.softtabstop = 2
-g.shiftwidth = 2
+o.tabstop = 2
+o.softtabstop = 2
+o.shiftwidth = 2
 
 g.mapleader = " "
 g.maplocalleader = " "
