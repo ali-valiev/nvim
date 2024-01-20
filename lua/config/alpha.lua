@@ -34,6 +34,13 @@ dashboard.section.header.val = {
    dashboard.button("q", "Quit Neovim", ":qa<CR>"),
 }
 
+local function footer()
+	local stats = require("lazy").stats()
+	local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
+	return { "⚡ Neovim loaded " .. stats.loaded .. "/" .. stats.count .. " plugins in " .. ms .. "ms" }
+end
+
+dashboard.section.footer.val = footer()
 
 dashboard.section.footer.opts.hl = "Type"
 dashboard.section.header.opts.hl = "Include"
