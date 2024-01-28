@@ -12,3 +12,4 @@ o.number = true
 o.relativenumber = true
 
 o.scrolloff = 8
+
