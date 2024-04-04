@@ -3,8 +3,8 @@ return {
 	config = function ()
 		require('Comment').setup({
 			toggler = {
-				line = '<leader>cc',
-				block = '<leader>bc',
+				line = '<leader>gc',
+				block = '<leader>gbc',
 			}
 		})
 	end

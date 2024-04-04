@@ -13,3 +13,5 @@ o.relativenumber = true
 
 o.scrolloff = 8
 
+vim.cmd([[set clipboard=unnamedplus]])
+
