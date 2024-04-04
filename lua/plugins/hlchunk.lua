@@ -6,12 +6,9 @@ return {
 			indent = {
 				chars = { "│", "¦", "┆", "┊" }, -- more code can be found in https://unicodeplus.com/
 
-				style = {
-					"#8B00FF",
+				blank = {
+					blank = true,
 				},
-			},
-			blank = {
-				chunck = true,
 			},
 		})
 	end,
