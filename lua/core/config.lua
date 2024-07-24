@@ -5,6 +5,8 @@ o.tabstop = 2
 o.softtabstop = 2
 o.shiftwidth = 2
 
+o.termguicolors = true
+
 g.mapleader = " "
 g.maplocalleader = " "
 
@@ -13,5 +15,6 @@ o.relativenumber = true
 
 o.scrolloff = 8
 
-vim.cmd([[set clipboard=unnamedplus]])
+o.mousemodel = "extend"
+o.clipboard = "unnamedplus"
 

@@ -1,7 +1,7 @@
 return {
 	{
 		"https://github.com/Shatur/neovim-ayu",
-		enabled = true,
+		enabled = false,
 		config = function()
 			vim.cmd.colorscheme("ayu-dark");
 		end,
@@ -15,7 +15,7 @@ return {
 	},
 	{
 		"Abstract-IDE/Abstract-cs",
-		enabled = false,
+		enabled = true,
 		config = function()
 			vim.cmd.colorscheme("abscs")
 		end,
